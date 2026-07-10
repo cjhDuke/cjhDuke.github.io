@@ -43,7 +43,11 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+mathjax:
+  tags: ams
+  single_dollars: true
+  every_page: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
