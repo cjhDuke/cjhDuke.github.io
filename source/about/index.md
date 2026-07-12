@@ -1,6 +1,7 @@
 ---
 title: 关于我
 layout: about
+comment: true
 ---
 
 我是 Duke Chen，一名计算机专业学生。
