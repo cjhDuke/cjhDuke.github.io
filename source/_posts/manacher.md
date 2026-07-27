@@ -1,7 +1,8 @@
 ---
 title: "Manacher(马拉车)算法"
+description: "从暴力求解最长回文子串出发，讲解 Manacher 算法的字符串预处理、回文半径和区间更新，并给出 C++ 实现。"
 date: "2026-02-28 17:33:06"
-modified: "2026-03-03 23:22:27"
+updated: "2026-03-03 23:22:27"
 slug: "manacher"
 author_id: 1
 excerpt: ""

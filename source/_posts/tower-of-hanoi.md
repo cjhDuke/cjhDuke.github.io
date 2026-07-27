@@ -1,7 +1,8 @@
 ---
 title: "Tower of Hanoi"
+description: "使用递归思想拆解汉诺塔的搬盘过程，给出程序实现和时间复杂度分析，并探讨移动步骤与二进制变化的联系。"
 date: "2026-03-05 19:17:12"
-modified: "2026-03-05 22:11:30"
+updated: "2026-03-05 22:11:30"
 slug: "tower-of-hanoi"
 author_id: 1
 excerpt: ""

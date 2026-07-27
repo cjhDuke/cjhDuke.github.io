@@ -1,7 +1,8 @@
 ---
 title: "Gale-Shapley算法"
+description: "介绍稳定匹配问题与 Gale-Shapley 算法，通过偏好配对示例演示算法执行过程，并分析其时间复杂度。"
 date: "2026-03-03 16:00:12"
-modified: "2026-03-03 23:21:59"
+updated: "2026-03-03 23:21:59"
 slug: "gale-shapley%e7%ae%97%e6%b3%95"
 author_id: 1
 excerpt: ""
