@@ -3,7 +3,7 @@ title: "Gale-Shapley算法"
 description: "介绍稳定匹配问题与 Gale-Shapley 算法，通过偏好配对示例演示算法执行过程，并分析其时间复杂度。"
 date: "2026-03-03 16:00:12"
 updated: "2026-03-03 23:21:59"
-slug: "gale-shapley%e7%ae%97%e6%b3%95"
+slug: "gale-shapley算法"
 author_id: 1
 excerpt: ""
 mathjax: true
@@ -23,7 +23,7 @@ tags:
         – h 当前配对的对象为 s′，而 h 的偏好是 s > s′。  
         – s 当前配对的对象为 h′，而 s 的偏好是 h > h′。  
 显然，只有在信息交互的过程才会发现不稳定配对。稳定匹配就是没有不稳定配对的完全匹配。  
-  
+
 
 ## Gale-Shapley算法
 
@@ -32,39 +32,39 @@ tags:
 $$
 m_1 , w_1 > w_2 >w_3
 $$
-  
+
 
 $$
 m_2 , w_1>w_3>w_2
 $$
-  
+
 
 $$
 m_3,w_1>w_3>w_2
 $$
-  
+
 
 $$
 w_1,m_2>m_1>m_3
 $$
-  
+
 
 $$
 w_2,m_1>m_2>m_3
 $$
-  
+
 
 $$
 w_3,m_3>m_1>m_2
 $$
-  
+
 根据Gale-Shapley算法，我们首先遍历男生w，按照男生的需求的优先级先与女生匹配，若男生先要所选的女生已经被匹配了，那么需要观察女生的喜好，对比已经匹配的男生和想要匹配的男生，选择优者，被淘汰者则按照自己的顺序继续寻找女生匹配。该过程在该例子中可以表现为一下具体执行：
 $m_1$ 按照优先级首先与 $w_1$ 匹配，现有配对：$m_1 \leftrightarrow w_2$
- 
+
 $m_2$ 按照优先级与 $w_1$ 匹配，但 $w_1$ 已有配对，择优选择 $m_2$，$m_1$ 重新配对选择 $w_2$，现有配对：$m_1 \leftrightarrow w_2,m_2 \leftrightarrow w_1$
- 
+
 $m_3$ 按照优先级选择 $w_1$，但 $w_1$ 已有配对，择优选择 $m_2$，$m_3$ 重新配对选择 $w_3$，现有配对：$m_1 \leftrightarrow w_2,m_2 \leftrightarrow w_1,m_3 \leftrightarrow w_3$
-  
+
 按照算法最后的稳定匹配为
 $$
 m_1 \leftrightarrow w_2,m_2 \leftrightarrow w_1,m_3 \leftrightarrow w_3

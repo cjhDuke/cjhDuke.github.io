@@ -1,0 +1,10 @@
+.markdown-body > a.fancybox {
+  display: block;
+}
+
+.markdown-body > img,
+.markdown-body > a.fancybox > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
