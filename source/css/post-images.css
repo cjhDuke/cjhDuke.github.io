@@ -8,3 +8,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.markdown-body mark {
+  padding: 0.08em 0.2em;
+  border-radius: 0.2em;
+  background-color: #fff1a8;
+  color: inherit;
+}
+
+[data-user-color-scheme="dark"] .markdown-body mark {
+  background-color: #665c2b;
+}
